@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central Cafe Jelgava</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f3ed;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 40px;
+      font-size: 46px;
+      letter-spacing: 2px;
+    }
+
+    section { padding: 40px 20px; }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: nowrap;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .images img {
+      width: 100%;
+      max-width: 280px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+
+    .info-box {
+      max-width: 1000px;
+      margin: auto;
+      background: rgba(255,255,255,0.65);
+      padding: 35px;
+      border-radius: 18px;
+    }
+
+    .black {
+      background: #111;
+      color: #f1f1f1;
+    }
+
+    .map iframe {
+      width: 100%;
+      max-width: 1100px;
+      height: 420px;
+      border: none;
+      border-radius: 18px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .buttons a img {
+      width: 90px;
+      transition: transform 0.2s;
+    }
+
+    .buttons a img:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      padding: 30px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 900px) {
+      .images { flex-wrap: wrap; }
+      h1 { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>CENTRAL CAFE JELGAVA</h1>
+
+<section>
+  <div class="images">
+    <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Kafejnīca">
+    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1" alt="Kafija">
+    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" alt="Deserti">
+  </div>
+</section>
+
+<section>
+  <div class="info-box">
+    <h2>Ēdienkarte</h2>
+    <a href="menu.html" target="_blank" title="Skatīt pilno ēdienkarti">
+      <button style="width: 190px; height: 60px; border: none; border-radius: 10px; background: #333; color: #f1f1f1; font-size: 12px; cursor: pointer;">Skatīt<br>Ēdienkarti</button>
+    </a>
+  </div>
+</section>
+
+<section>
+  <div class="images">
+    <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Kafejnīca">
+    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1" alt="Kafija">
+    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" alt="Deserti">
+  </div>
+</section>
+
+
+
+<section>
+  <div class="info-box">
+    <h2>Darba laiks</h2>
+    <p>P–Pk: 12:00 – 22:00<br>Sestdiena–Svētdiena: Slēgts</p>
+  </div>
+</section>
+
+<section>
+  <div class="images">
+    <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Kafejnīca">
+    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1" alt="Kafija">
+    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" alt="Deserti">
+  </div>
+</section>
+
+<section class="map">
+  <div class="info-box">
+    <h2>Kur mūs atrast</h2>
+    <iframe src="https://www.google.com/maps?q=Central%20Cafe%20Jelgava&output=embed"></iframe>
+  </div>
+</section>
+
+
+
+<section>
+  <div class="info-box">
+    <h2>Sazināties ar mums</h2>
+    <p>📍 Jelgava, Latvija</p>
+    <p>📞 <a href="tel:+37120000000">+371 20 000 000</a></p>
+    <p>✉️ info@centralcafe.lv</p>
+  </div>
+</section>
+
+<footer>© 2025 Central Cafe Jelgava</footer>
+
+</body>
+</html>
